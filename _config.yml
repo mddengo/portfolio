@@ -12,8 +12,9 @@ timezone:
 
 # Header
 menu:
-    About: /about
-    Contact: /contact
+    Home: https://mddengo.github.io
+    About: https://mddengo.github.io/about
+#    Contact: /contact  TODO: linkedin, email, github
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'

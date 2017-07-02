@@ -13,7 +13,9 @@ timezone:
 # Header
 menu:
     Home: https://mddengo.github.io
-    About: https://mddengo.github.io/about.html
+    Art Portfolio: /
+    Writing: /
+#    About: https://mddengo.github.io/about.html
 #    Contact: /contact  TODO: linkedin, email, github
 
 # URL

@@ -30,9 +30,3 @@ Although we weren't able to finish and deploy our app by the time the hackathon 
 
 ## Source Code
 Can be found on [Github](https://github.com/mddengo/purify).
-
-
-
-
-
-[&#10229; <small>Back</small>](/)

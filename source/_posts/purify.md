@@ -11,8 +11,8 @@ Purify (stylized with no caps as purify) was born during the 2016 TartanHacks at
 
 We wanted to make a a web application related to music, and drew inspiration from our own experiences with SoundCloud, an online platform that allows users to listen to, upload, and share music with each other. When users log in to SoundCloud, they have a feed of music that was either shared by or uploaded from the users they are following. Thus, when listening to one's feed, it is hard to control what kind of music is played. For example, if someone wanted to listen to their feed while studying, since the music on the feed can't be filtered to a specific genre or BPM, not every song would be conducive to studying.
 
-<img src="soundcloud.png" width="85%" title="SoundCloud Feed Example" alt="SoundCloud Feed Example">
-_As shown above, there is no option to filter a user's feed._
+<img align="center" src="soundcloud.png" width="85%" title="SoundCloud Feed Example" alt="SoundCloud Feed Example">
+<p align="center">_As shown above, there is no option to filter a user's feed._</p>
 
 Based on this predicament, we decided to make an app that would allow users to search for a song, then filter the user's feed based on certain qualities of the selected song, such as genre, artist, BPM, etc.
 

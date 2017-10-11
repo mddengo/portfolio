@@ -68,11 +68,13 @@ pagination_dir: page
 
 # Extensions
 ## Plugins: https://hexo.io/plugins/
-plugins:
-  - hexo-tag-video
+#plugins:
+#  - hexo-tag-video
 
 ## Themes: https://hexo.io/themes/
 theme: hexo-theme-edinburgh
+
+favicon: portfolio/themes/hexo-theme-edinburgh/source/favicon/favicon.ico
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html

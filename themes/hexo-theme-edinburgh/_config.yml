@@ -1,5 +1,6 @@
 # Google Analytics Tracking ID
 google_analytics:
+favicon: portfolio/themes/hexo-theme-edinburgh/source/favicon/favicon.ico
 
 # Default portfolio post
 default_cover_image: /images/first.jpg

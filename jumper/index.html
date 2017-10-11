@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- Head tag -->
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Title -->
+  
+  <title>Jumper Game - portfolio | michelle</title>
+
+  <!--Favicon-->
+  <!--<link rel="icon" href="favicon/favicon.ico">-->
+    <link rel="icon" href="../../source/favicon/favicon.ico">
+
+  <!--Description-->
+  
+      <meta name="description" content="BackgroundJumper is a game that was conceived in the first project for HCI class 05-833: Gadgets, Sensors, and Activity Recognition taught by Prof. Sc">
+  
+
+  <!--Author-->
+  
+      <meta name="author" content="Michelle Deng">
+  
+
+  <!-- Pure CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Crimson+Text|Open+Sans:300,800" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="/portfolio/css/styles.css">
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+
+  <!-- Google Analytics -->
+  
+
+</head>
+
+
+  <body>
+  	<div class="container-fluid navbar-container m-sm-5">
+      <!-- Header -->
+      <nav class="navbar navbar-toggleable-sm navbar-light px-1 py-3 my-3 mb-sm-5">
+  <a class="navbar-brand ml-2" href="/portfolio/">portfolio | michelle</a>
+  <button class="navbar-toggler navbar-toggler-right py-2" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse text-center" id="navbarCollapse">
+    <ul class="navbar-nav ml-auto my-auto">
+      
+        <li class="nav-item">
+          <a class="nav-link" href="https://mddengo.github.io">Home</a>
+        </li>
+      
+        <li class="nav-item">
+          <a class="nav-link" href="https://mddengo.github.io/art.html">Artwork</a>
+        </li>
+      
+        <li class="nav-item">
+          <a class="nav-link" href="https://mddengo.github.io/photography.html">Photography</a>
+        </li>
+      
+    </ul>
+    <hr class="hidden-md-up" />
+  </div>
+</nav>
+
+
+  		<div class="row">
+  			
+<div class="col-12 mb-4">
+  <img class="img-fluid project-img" src="/portfolio//images/jumper.png" alt="Jumper Game">
+</div>
+<!--
+<div class="col-lg-4 col-12 pt-3 px-4 pr-lg-5">
+  <h1>Jumper Game</h1>
+</div>-->
+<!--<div class="col-lg-8 col-12 pt-lg-3 mb-4 pl-lg-5 px-lg-0 px-4 portfolio-content">-->
+
+<div class="col-lg-1"></div>
+
+<div class="col-lg-10 col-12 pt-lg-3 mb-4 pl-lg-6 pr-lg-6 px-4 portfolio-content">
+  <h1>Jumper Game</h1>
+  <h1 id="Background"><a href="#Background" class="headerlink" title="Background"></a>Background</h1><p>Jumper is a game that was conceived in the first project for HCI class 05-833: Gadgets, Sensors, and Activity Recognition taught by Prof. Scott Hudson. It is an extremely simplified version of the popular phone app <a href="https://itunes.apple.com/us/app/doodle-jump/id307727765?mt=8" target="_blank" rel="external">Doodle Jump</a>.</p>
+<p>This game is displayed on an 8x8 LED matrix, where the user controls a pixel (the Jumper) on the screen with two switch buttons. The Jumper is in a constant bouncing motion, so the user only needs to move the Jumper left or right by pressing either the left or right switch. The goal of the game is to advance the pixel using ledges that will appear on the screen and to stay alive as long as possible. The game ends when the player misses a ledge, and the Jumper will “fall” all the way back to the first ledge, immediately starting a new game.</p>
+<p>The final score is the total height the Jumper has achieved.</p>
+<h1 id="Technologies"><a href="#Technologies" class="headerlink" title="Technologies"></a>Technologies</h1><p>This game was developed using the <a href="https://www.arduino.cc/en/Guide/ArduinoNano" target="_blank" rel="external">Arduino Nano</a> on the Arduino Web IDE.</p>
+<h1 id="Progress-Pictures"><a href="#Progress-Pictures" class="headerlink" title="Progress Pictures"></a>Progress Pictures</h1><p><img src="start.JPG" width="69%" alt="Before Wiring" title="Before Wiring"><br><em>Before wiring the breadboard for the LED matrix.</em></p>
+<p><img src="rewiring.JPG" width="69%" alt="Rewiring" title="Rewiring"><br><em>Wiring the breadboard requires some thoughtful planning. As shown here and below, I decided to rewire my breadboard so it would be easier to attach my wires to the different pins.</em></p>
+<p><img src="final_wiring.JPG" width="69%" alt="Final Wiring" title="Final Wiring"><br><em>The final wiring of the breadboard.</em></p>
+<p><img src="pinout_test.JPG" width="69%" alt="Testing the Pinouts" title="Testing the Pinouts"><br><em>Verifying that all the LEDs are functional.</em></p>
+<p><img src="start_game.JPG" width="69%" alt="Starting the game" title="Starting the game"><br><em>Starting to code the game!</em></p>
+<h1 id="Final-Product"><a href="#Final-Product" class="headerlink" title="Final Product"></a>Final Product</h1><video src="play_game.mov" width="50%" controls controlslist="nodownload"><br>    Your browser does not support the video tag.<br></video>
+
+<h2 id="Reflection"><a href="#Reflection" class="headerlink" title="Reflection"></a>Reflection</h2><p>As someone who had no hardware experience prior to this class, working on this project was both fun and frustrating at the same time. It was fun because I had never worked with both software and hardware, but frustrating because the code that I wrote would oftentimes not translate the way I wanted it to on the matrix. I ran into several problems with displaying the shapes that I wanted and appropriately implementing the scrolling ledges. It was only through the scouring of many, many forums that I managed to piece together many tidbits of advice and wisdom that I was able to produce this completed game.</p>
+<p>One cool library I was able to utilize was the <code>FrequencyTimer2</code> library, which facilitates interrupt routines to the <code>loop()</code> method the Arduino runs. This allowed me to fluidly and constantly refresh and redraw the screen to render the bouncing Jumper and moving ledges.</p>
+<p>All in all, I am very happy with the way this game turned out. In the future, I would like to add sound effects and additional “power-ups” that can be found in the actual Doodle Jump game.</p>
+
+  <div>
+    <a href="/portfolio">&#10229; <small>Back</small></a>
+  </div>
+</div>
+
+<div class="col-lg-1"></div>
+
+
+  		</div>
+  	</div>
+
+    <!--Footer-->
+    <footer class="footer-bottom">
+    <div class="container">
+        <div id="footer-info" class="inner">
+            Content and images &copy; 2017 Michelle Deng
+        </div>
+    </div>
+</footer>
+
+
+    <!-- After footer scripts -->
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
+  </body>
+</html>

@@ -11,17 +11,25 @@ For this project, my partner and I made a voice-controlled two-player Tic Tac To
 To help Cozmo "see" and know the spacial configuration of the board, we used two different Aruco markers and pasted them onto 3D-printed "stop signs," which were posted on two opposite corners of the physical game board. We distinguished each part of the board with animal names in the range A–I (Ant to Iguana), since the speech recognition was a bit finicky and couldn't easily recognize letter-character combinations such as "A1" or "C3".
 
 # Game Play
-
-<center><img src="cozmo_action.png" width="69%" alt="Cozmo in action" title="Cozmo in Action">
-_Cozmo pushing a chip to a named square._</center>
+<center>
+<video src="demo.mov" width="50%" controls controlsList="nodownload">
+    Your browser does not support the video tag.
+</video>
+_Short video demo._
+</center>
 
 Game play would follow this kind of sequence:
-P1: "Cozmo Alpha go to frog."
+P1: "Cozmo Alpha frog now."
 P1's Cozmo pushes a chip to the "frog square", then returns to its original position.
+Cozmo Alpha: "Ready for next move."
 P2: "Cozmo Bravo go to bear."
 P2's Cozmo pushes a chip to the "bear square", then returns to its original position.
+Cozmo Bravo: "Ready for next move."
 ...
 If P1 or P2 makes a winning move, their Cozmo will recognize that they have just won and it will say, "We did it! We won!"
 
 # Conclusion
 Many improvements could still be made to this game. For two players to play this game, two computers need to run the game script, so the Cozmos don't have shared knowledge of the board. Future work could include a global board that can be shared by multiple Cozmos. In addition, improve speech recognition would definitely help improve the quality and smoothness of the game.
+
+## Source Code
+Can be found at [Github](https://github.com/mddengo/voice-control-tic-tac-toe).

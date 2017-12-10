@@ -15,6 +15,7 @@ The final score is the total height the Jumper has achieved.
 This game was developed using the [Arduino Nano](https://www.arduino.cc/en/Guide/ArduinoNano) on the Arduino Web IDE.
 
 # Progress Pictures
+<center>
 <img src="start.JPG" width="69%" alt="Before Wiring" title="Before Wiring">
 _Before wiring the breadboard for the LED matrix._
 
@@ -29,11 +30,14 @@ _Verifying that all the LEDs are functional._
 
 <img src="start_game.JPG" width="69%" alt="Starting the game" title="Starting the game">
 _Starting to code the game!_
+</center>
 
 # Final Product
-<video src="play_game.mov" width="50%" controls controlsList="nodownload">
+<center>
+<video src="play_game.MOV" width="50%" controls controlsList="nodownload">
     Your browser does not support the video tag.
 </video>
+</center>
 
 ## Reflection
 As someone who had no hardware experience prior to this class, working on this project was both fun and frustrating at the same time. It was fun because I had never worked with both software and hardware, but frustrating because the code that I wrote would oftentimes not translate the way I wanted it to on the matrix. I ran into several problems with displaying the shapes that I wanted and appropriately implementing the scrolling ledges. It was only through the scouring of many, many forums that I managed to piece together many tidbits of advice and wisdom that I was able to produce this completed game.

@@ -80,5 +80,5 @@ favicon: portfolio/themes/hexo-theme-edinburgh/source/favicon/favicon.ico
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: git@github.com:mddengo/portfolio.git
+  repo: https://github.com/mddengo/portfolio.git
   branch: gh-pages
